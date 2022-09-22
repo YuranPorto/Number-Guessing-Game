@@ -12,7 +12,6 @@ def main():
         min_number = int(input('Selecione o primeiro número: '))
         max_number = int(input('Selecione o segundo número: '))
         guesser = random.randrange(min_number, max_number)
-        print(guesser)
         player_guess = int(input('Qual o número você acha que foi escolhido? '))
         if player_guess == guesser:
             print(f'Você escolheu o número {player_guess} e a maquina o número {guesser}\nParabéns, você venceu')
